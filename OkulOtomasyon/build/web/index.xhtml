@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <h:head>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous"
+            ></link>
+        <title>Öğrenci Otomasyon Sistemi</title>
+        <style>
+            .marginAuto{
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 3%;
+            }
+        </style>
+    </h:head>
+
+    <h:body style="background-color: #87cefa; text-align:center">
+
+        <header class="mt-5 pt-5">
+            <h1 class="display-1"><b>Öğrenci Otomasyonuna Hoşgeldiniz</b></h1>
+        </header>
+        <div class="container m-auto p-auto" style="text-align:center">
+            <div class="row mt-5 pt-5" style="text-align:center">
+                <div class="col mt-5 pt-5" >
+                    <div class="card m-auto" style="width: 15rem">
+                        <img
+                            src="assets/stuLogin.png"
+                            class="card-img-top"
+                            alt="..."
+                            />
+                        <div class="card-body">
+                            <h3 class="card-title">ÖĞRENCİ</h3>
+                            <h:button value="Giriş" outcome="ogrLogin.xhtml">  </h:button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col mt-5 pt-5">
+                    <div class="card m-auto" style="width: 15rem">
+                        <img
+                            src="assets/hocaLogin.png"
+                            class="card-img-top"
+                            alt="..."
+                            />
+                        <div class="card-body">
+                            <h3 class="card-title">ÖĞRETMEN</h3>
+                            <h:button  value="Giriş" outcome="hocaLogin.xhtml">  </h:button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </h:body>
+</html>
+
